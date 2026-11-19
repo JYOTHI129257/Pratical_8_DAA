@@ -1,0 +1,12 @@
+## Summary
+
+Graph traversal is the process of visiting all the vertices of a graph systematically. Two important graph traversal techniques are **Breadth First Search (BFS)** and **Depth First Search (DFS)**.
+
+- **BFS (Breadth First Search):** Visits vertices level by level. It uses a Queue (FIFO) to visit all neighbouring vertices before moving to the next level.
+- **DFS (Depth First Search):** Visits vertices by going as deep as possible along a path before backtracking. It uses a Stack or Recursion.
+- Both algorithms use a visited array to avoid visiting the same vertex multiple times.
+- Both BFS and DFS have a time complexity of **O(V + E)** using an adjacency list.
+
+## Conclusion
+
+Thus, we successfully implemented Graph traversal using BFS and DFS in C++. Both algorithms are useful for exploring and searching graph structures. BFS is suitable for finding the shortest path in an unweighted graph, whereas DFS is useful for exploring paths, detecting cycles, and solving connectivity problems. Hence, BFS and DFS are two fundamental techniques in graph traversal.
